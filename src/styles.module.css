@@ -7,3 +7,36 @@
   font-size: 2em;
   text-align: center;
 }
+
+.btn{
+  width: 125px;
+  height: 40px;
+  border: none;
+  border-radius: 22px;
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.default{
+  color: rgb(47, 47, 47);
+  background-color: rgb(255, 255, 255);
+  border:1px solid rgb(47, 47, 47);
+}
+.primary{
+  background-color: rgb(11, 68, 190);
+  color: white;
+}
+.dashed{
+  color: rgb(47, 47, 47);
+  background-color: rgb(255, 255, 255);
+  border:1px dashed rgb(47, 47, 47);
+}
+.text{
+  color: rgb(47, 47, 47);
+  background-color: rgb(255, 255, 255);
+}
+.link{
+  color: rgb(11, 68, 190);
+  background-color: rgb(255, 255, 255);
+}
